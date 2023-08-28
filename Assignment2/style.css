@@ -25,7 +25,15 @@ header{
     float: right;
     clear: left;
     border: solid black 1px;
-    background-color:darkcyan;
+}
+#HTML > header{
+    background-color: lightslategray;
+}
+#CSS > header{
+    background-color:darkgrey;
+}
+#JavaScript > header{
+    background-color:gray;
 }
 h1{
     font-size: 175%;
