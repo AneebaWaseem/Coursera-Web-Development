@@ -1,35 +1,38 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
-h1{
-    text-align: center;
-    margin: 5%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:darkslategrey;
+body{
+    font-size: small;
 }
 div{
     background-color: cadetblue;
     border: solid black 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header{
-    padding: 1% 5%;
-    font-weight:bold;
-    color:rgb(40, 64, 64);
-}
 p{
-    padding: 5px;
-    padding-top: 25px;
+    font-size: 100%;
+    padding: 7px;
+    padding-top: 30px;
     color:darkslategrey;
 }
 header{
+    font-size: 125%;
+    padding: 1% 5%;
+    font-weight:bold;
+    color:rgb(40, 64, 64);
     float: right;
     clear: left;
     border: solid black 1px;
     background-color:darkcyan;
+}
+h1{
+    font-size: 175%;
+    text-align: center;
+    margin: 5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkslategrey;
 }
 .row{
     width:100%;
